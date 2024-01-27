@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light ON/OFF System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center><h1>LIGHT ON/OFF SYSTEM</h1></center>
+    <center><img src="/img/pic_bulboff.gif" id="light" /></center>
+    <div>
+      <button
+        id="bttn-on"
+        onclick="document.getElementById('light').src='/img/pic_bulbon.gif'"
+      >
+        ON
+      </button>
+      <button
+        id="bttn-off"
+        onclick="document.getElementById('light').src='/img/pic_bulboff.gif'"
+      >
+        OFF
+      </button>
+    </div>
+  </body>
+</html>
